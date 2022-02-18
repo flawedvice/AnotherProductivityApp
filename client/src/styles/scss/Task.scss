@@ -1,0 +1,15 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-metadata {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .task-due {
+    text-align: right;
+    font-size: 1.4rem;
+    line-height: .6;
+  }
