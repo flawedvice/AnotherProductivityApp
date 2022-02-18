@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Hello React!</h1>
+        <h2>ToDos</h2>
         <TaskList />
       </header>
     </div>

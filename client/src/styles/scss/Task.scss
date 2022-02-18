@@ -1,15 +1,30 @@
 .task {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .task-metadata {
+    width: 45%;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.task-metadata {
+    position: relative;
     display: flex;
     justify-content: space-evenly;
-  }
+    width: 33.3%;
+
+    .color-bar {
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        bottom: 1rem;
+        display: block;
+        width: 1rem;
+        background-color: #fff;
+    }
+}
   
-  .task-due {
+.task-due {
     text-align: right;
     font-size: 1.4rem;
     line-height: .6;
-  }
+}

@@ -1,1 +1,1 @@
-.task{display:flex;justify-content:space-between}.task-metadata{display:flex;justify-content:space-evenly}.task-due{font-size:1.4rem;line-height:.6;text-align:right}
+.task{align-items:center;display:flex;justify-content:space-between;margin:1rem 0;width:45%}.task-metadata{display:flex;justify-content:space-evenly;position:relative;width:33.3%}.task-metadata .color-bar{background-color:#fff;bottom:1rem;display:block;left:1rem;position:absolute;top:1rem;width:1rem}.task-due{font-size:1.4rem;line-height:.6;text-align:right}

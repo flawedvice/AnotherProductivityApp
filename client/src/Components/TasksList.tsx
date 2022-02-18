@@ -4,10 +4,10 @@ const TaskList = () => {
 
     return (
         <>
-            <Task />
-            <Task />
-            <Task />
-            <Task />
+            <Task num={1}/>
+            <Task num={2}/>
+            <Task num={3}/>
+            <Task num={4}/>
         </>
     );
 };
