@@ -1,7 +1,7 @@
 .task {
     display: flex;
     justify-content: space-between;
-    width: 45%;
+    width: 100%;
     margin: 1rem 0;
     align-items: center;
 }
@@ -14,7 +14,7 @@
 
     .color-bar {
         position: absolute;
-        left: 1rem;
+        left: -20%;
         top: 1rem;
         bottom: 1rem;
         display: block;

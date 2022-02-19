@@ -1,0 +1,38 @@
+.task-card {
+    width: 40%;
+    background-color: #fff;
+    color: #333;
+
+    .task-card-title {
+        display: flex;
+        margin: 2rem;
+        text-align: left;
+
+        input {
+            margin: 0 2rem;
+        }
+    }
+
+    .task-card-metadata {
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
+        width: 100%;
+        text-align: left;
+
+        article {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+        }
+
+    }
+
+    .task-card-description {
+        margin: 2rem;
+        min-width: 80%;
+        min-height: 80%;
+    }
+}
